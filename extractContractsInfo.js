@@ -6,7 +6,7 @@
  *  - node ./extractContractsInfo.js <network_name>
  *
  *  Available networks:
- *  mainnet, ropsten, rinkeby, kovan, development
+ *  mainnet, ropsten, rinkeby, kovan, development, tobalaba
  */
 const artifactsDir = './lib/build/contracts';
 const dest = './lib/build/abi'
@@ -18,7 +18,8 @@ const networks = {
   'ropsten': 3,
   'rinkeby': 4,
   'kovan': 42,
-  'development': 1002
+  'development': 1002,
+  'tobalaba': 401697
 };
 
 const networkId = networks[process.argv[2]];
