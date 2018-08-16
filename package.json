@@ -1,6 +1,6 @@
 {
   "name": "eac.js-lib",
-  "version": "2.1.1",
+  "version": "2.3.6",
   "description": "Javascript library for interacting with the Ethereum Alarm Clock contracts",
   "main": "index.js",
   "scripts": {
@@ -24,14 +24,17 @@
   "devDependencies": {
     "@digix/tempo": "0.2.0",
     "chai": "4.1.2",
-    "ethereumjs-wallet": "0.6.0",
-    "ganache-core": "2.1.6",
+    "ethereumjs-wallet": "0.6.2",
+    "ganache-core": "2.2.0",
     "mocha": "5.1.1",
     "truffle-contract": "3.0.6",
     "web3": "0.20.6"
   },
   "dependencies": {
+    "@ethereum-alarm-clock/contracts": "1.0.0-beta.4",
     "bignumber.js": "5.0.0",
-    "ethereumjs-util": "5.2.0"
+    "ethereumjs-util": "5.2.0",
+    "truffle": "4.1.14",
+    "truffle-hdwallet-provider": "0.0.6"
   }
 }
